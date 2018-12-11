@@ -1,26 +1,32 @@
-\begin{frame}{Ironhide: chains endpoints}
+\begin{frame}{\texttt{Ironhide}: chains endpoints}
 
-  \texttt{Ironhide} is the component that manages traffic that \textbf{enters
-  and exits} the chain
+  \includegraphics[page=1,scale=0.2]<1>{res/images/ironhidefinalreview}
 
-  \vfill{}
+  \only<2->{
 
-  It classify entering packets choosing the most suitable chain
-  \begin{itemize}
-    \item Classification based on \textbf{transport layer protocol} used
-    \item Performed only at the edges of the chain, not during the traversal
-  \end{itemize}
+    \texttt{Ironhide} is the component that manages traffic at
+    \textbf{ingress/egress} point of the network
 
-  \vfill{}
+    \vfill{}
 
-  \textbf{Encapsulate/decapsulate} packets to traverse the chain
+    Tasked with packet/flow classification
+    \begin{itemize}
+      \item Classification based on \textbf{transport layer protocol} used
+      \item Performed only at the edges of the chain, not during the traversal
+    \end{itemize}
 
-  \begin{textblock*}{1cm}(11cm, 6cm)
-    \includegraphics[scale=0.08]{enterexit}
-  \end{textblock*}
+    \vfill{}
 
-  \vfill{}
+    Packets entering/leaving the SFC domain are \textbf{(de)encapsulated}
+    accordingly
 
-  Keep the connection with the sender/receiver of packets
+    \begin{textblock*}{1cm}(10.5cm, 2.5cm)
+      \includegraphics[scale=0.08]{enterexit}
+    \end{textblock*}
+
+    \vfill{}
+
+    Keep the connection with the sender/receiver of packets
+  }
 
 \end{frame}
