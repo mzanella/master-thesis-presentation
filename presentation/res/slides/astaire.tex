@@ -1,18 +1,22 @@
 \begin{frame}{\texttt{Astaire}: Service Function Forwarder}
 
-  \begin{textblock*}{1cm}(9cm, 5cm)
-    \includegraphics[scale=0.08]{forwarding}
-  \end{textblock*}
+  \includegraphics[page=1,scale=0.2]<1>{res/images/astairefinalreview}
 
-  It is the component that logically \textbf{create the path} for traffic
+  \only<2->{
+    \begin{textblock*}{1cm}(9cm, 5cm)
+      \includegraphics[scale=0.08]{forwarding}
+    \end{textblock*}
 
-  \vfill{}
+    Component tasked with the \textbf{data path creation} among components
 
-  Responsible for \textbf{forward traffic to the VNFs} and manage the response
+    \vfill{}
 
-  \vfill{}
+    Responsible for \textbf{forward traffic to the VNFs} and manage the response
 
-  It queries \texttt{Roulette} to check the next hop based on chain identifier
-  specified in the packet encapsulation
+    \vfill{}
+
+    It queries \texttt{Roulette} to check the next hop based on chain identifier
+    specified in the packet encapsulation
+  }
 
 \end{frame}
