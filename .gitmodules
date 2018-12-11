@@ -1,3 +1,6 @@
 [submodule "UnipdTheme"]
 	path = UnipdTheme
 	url = git@github.com:R-and-LaTeX/UnipdTheme.git
+[submodule "LaTeXTools"]
+    path = LaTeXTools
+    url = git@github.com:Augugrumi/LaTeXTools.git
