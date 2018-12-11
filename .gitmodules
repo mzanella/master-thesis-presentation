@@ -1,3 +1,4 @@
 [submodule "UnipdTheme"]
 	path = UnipdTheme
-	url = git@github.com:R-and-LaTeX/UnipdTheme.git
+	url = https://github.com/R-and-LaTeX/UnipdTheme.git
+	branch = master
