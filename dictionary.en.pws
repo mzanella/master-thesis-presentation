@@ -360,6 +360,7 @@ travelling
 QoE
 middleboxes
 middlebox
+middleware
 balancers
 pdf
 localhost
@@ -399,3 +400,5 @@ PoCs
 roadmap
 extendible
 decapsulate
+ARTES
+NFs
