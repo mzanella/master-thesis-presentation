@@ -30,5 +30,7 @@ deploy:
   api_key:
     secure: q8ewTrzT/YdvDtTkLLrIbIz+qJ1z4RPhLled/GE2bKlpp+C1XjN7VDT88wsJ1gkvHjdtfbFlT1LZwKi6a8kCP/duvE2EwmzcvinogWOHxXKEYWH/FGXbbLtudtAb++rR4+ZmX+CzYoOW8dVkOCZRPcF1X8QMF3PTrrseNWceksC3PMtlWB7lZQg3X+KVhOr0osgApd5ltsYhZEDZDwesAqmh3N1qOYxAlUOz1+wYC377boS7cG+QBCG+ZmmZtYwSy1Eghznznmn2qMQLTtJKpCtQyGmV0KMOX6TQaDDYkrNhstwhFIk+rYObTCeJxAy0RvK5/GApJL2JmZfLALguWQHex1CkxeAcK2EUvzLZJbUJT+578o4FU8gqAsT4zXxvxKuE0EJ0l5S6neUCEQ2Rb0hVkD+va1uCP5TEklrmn1Gs41Nt4dipy1dI1GVVg0RZwkR5C2juJUG0+kXn577EZ9Z9I9/Ga6azPsb0eAKUgQAGeBi2JSYkQ53NG1iUAxt2KdGJz7SJBBbokWW3JMQYycu22G2cAPCMacevL503tDNGb6KEmImWkbnFAfwD7ucR+3ZvyJBJTfSDL0Lr8s3kQk5/VhhC057BX9G43s/DsvjgyuhB1H+1fxfUGPXAqQYsPllAYMH5053jUZa9WNjeSoCyKd8sTY/hfMDKrCbKVx4=
   file: presentation/ThesisPresentation.pdf
+  skip_cleanup: true
   on:
     repo: mzanella/master-thesis-presentation
+    tags: true
