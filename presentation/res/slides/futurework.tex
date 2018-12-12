@@ -14,8 +14,17 @@
 
   \vfill{}
 
-  Ironhide implementation requires low level system access to be able to read
-  the whole TCP and UDP headers
+  %Il context header attualmente viene usato per memorizzare i dati
+  %sorgente/destinazione. In un scenario multi-tenant (dove tenant sono
+  %consumatori della nostra rete) possiamo applicare regole di routing diverse a
+  %seconda del tenant. Questa informazione IronHide la prende da una repository
+  %e.g., in 4G e' la Home Subscriber Service (qualc. di simile), la encapsula
+  %nel Context Header e poi questa info. viene usata dalle singola VNF per e.g.,
+  %routing dinamico, applicare regole di QoS etc. Nel nostro testbed non
+  %abbiamo l'HSS - ma possiamo applicare la regola e.g., differenziando per
+  %classi IP. Inoltre, la nostra soluzione puo' essere integrata in un contesto
+  %4G e usare questa .. info. 
+  Implementation of SFC policy routing
 
   \vfill{}
 
